@@ -1,14 +1,31 @@
 
 // URL to base font directory
 $open-sans-path: "../fonts" !default;
-
+$open-sans-formats: ("eot", "svg", "ttf", "woff") !default;
 
 // @font-face mixin
 
 @mixin open-sans-font-face( $font, $svgid, $weight: normal, $style: normal ) {
+	$src: ();
+
+	@each $format in $open-sans-formats {
+		@if $format == "eot" {
+			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot#iefix') format('embedded-opentype');
+		}
+		@if $format == "svg" {
+			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.svg##{$svgid}') format('svg');
+		}
+		@if $format == "ttf" {
+			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.ttf') format('ttf');
+		}
+		@if $format == "woff" {
+			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.woff') format('woff');
+		}
+	}
+
 	@font-face {
 		font-family: 'Open Sans';
-		src: url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.woff') format('woff');
+		src: unquote($src);
 		font-weight: $weight;
 		font-style: $style;
 	}
