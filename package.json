@@ -5,7 +5,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bungeshea/open-sans.git"
+    "url": "https://github.com/macropodhq/open-sans.git"
   },
   "keywords": [
     "open-sans",
@@ -14,11 +14,14 @@
     "scss"
   ],
   "author": "Shea Bunge <info@bungeshea.com>",
+  "contributors": [
+    "Conrad Pankoff <deoxxa@fknsrs.biz>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bungeshea/open-sans/issues"
+    "url": "https://github.com/macropodhq/open-sans/issues"
   },
-  "homepage": "https://github.com/bungeshea/open-sans",
+  "homepage": "https://github.com/macropodhq/open-sans",
   "devDependencies": {
     "load-grunt-tasks": "~0.4.0",
     "grunt": "~0.4.2",
