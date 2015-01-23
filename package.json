@@ -22,12 +22,7 @@
     "url": "https://github.com/macropodhq/open-sans/issues"
   },
   "homepage": "https://github.com/macropodhq/open-sans",
-  "devDependencies": {
-    "load-grunt-tasks": "~0.4.0",
-    "grunt": "~0.4.2",
-    "grunt-sass": "~0.11.0",
-    "grunt-contrib-cssmin": "~0.9.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-bump": "0.0.13"
+  "scripts": {
+    "prepublish": "sass scss/everything.scss css/open-sans.css"
   }
 }
