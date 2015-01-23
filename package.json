@@ -1,6 +1,6 @@
 {
   "name": "open-sands",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "SCSS webfont kit for the awesome Open Sans webfont. Now with more sand!",
   "main": "sass/open-sans.scss",
   "repository": {
