@@ -2,7 +2,7 @@
   "name": "open-sands",
   "version": "1.0.0",
   "description": "SCSS webfont kit for the awesome Open Sans webfont. Now with more sand!",
-  "main": "sass/open-sans.scss",
+  "main": "scss/open-sans.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/macropodhq/open-sands.git"
