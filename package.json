@@ -1,11 +1,11 @@
 {
-  "name": "open-sans",
-  "version": "1.1.0",
-  "description": "SCSS webfont kit for the awesome Open Sans webfont.",
+  "name": "open-sands",
+  "version": "0.0.0",
+  "description": "SCSS webfont kit for the awesome Open Sans webfont. Now with more sand!",
   "main": "sass/open-sans.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/macropodhq/open-sans.git"
+    "url": "https://github.com/macropodhq/open-sands.git"
   },
   "keywords": [
     "open-sans",
@@ -19,10 +19,10 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macropodhq/open-sans/issues"
+    "url": "https://github.com/macropodhq/open-sands/issues"
   },
-  "homepage": "https://github.com/macropodhq/open-sans",
+  "homepage": "https://github.com/macropodhq/open-sands",
   "scripts": {
-    "prepublish": "sass scss/everything.scss css/open-sans.css"
+    "prepublish": "sass scss/everything.scss css/open-sands.css"
   }
 }
