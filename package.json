@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/macropodhq/open-sands",
   "scripts": {
-    "prepublish": "sass scss/everything.scss css/open-sands.css"
+    "prepublish": "sass scss/everything.scss css/open-sans.css"
   }
 }
