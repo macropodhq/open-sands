@@ -8,7 +8,7 @@ $open-sans-formats: ("eot", "svg", "ttf", "woff") !default;
 	@each $format in $open-sans-formats {
 		@if $format == "eot" {
 			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot#iefix') format('embedded-opentype');
-			$eot: url('../fonts/extrabold/opensans-extrabold-webfont.eot');
+			$eot: url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot');
 		}
 		@if $format == "svg" {
 			$src: $src, url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.svg##{$svgid}') format('svg');
