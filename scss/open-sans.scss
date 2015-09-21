@@ -1,3 +1,4 @@
+$open-sans-family-name: 'Open Sans' !default;
 $open-sans-path: "../fonts" !default;
 $open-sans-formats: ("eot", "svg", "ttf", "woff") !default;
 
@@ -22,7 +23,7 @@ $open-sans-formats: ("eot", "svg", "ttf", "woff") !default;
 	}
 
 	@font-face {
-		font-family: 'Open Sans';
+		font-family: $open-sans-family-name;
 		@if $eot != null {
 			src: $eot;
 		}
